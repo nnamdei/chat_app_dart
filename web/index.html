@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="scaffolded-by" content="https://github.com/google/stagehand">
+    <title>chat_app</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="bulma.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome.css">
+    <link rel="icon" href="favicon.ico">
+    <script defer src="main.dart.js"></script>
+</head>
+
+<body>
+
+ <section class="section">
+  <div class="container">
+
+    <div id="ChatSignin">
+      <h1 class="title">Chatter 🎯</h1>
+      <div class="columns">
+        <div class="column is-6">
+          <div class="field">
+            <label class="label">Please enter your name</label>
+            <div class="control is-expanded has-icons-left">
+              <input class="input is-medium" type="text" placeholder="Enter your name and hit ENTER" />
+              <span class="icon is-medium is-left">
+                <i class="fas fa-user"></i>
+              </span>
+            </div>
+            <p class="help is-danger"></p>
+          </div>
+          <div class="field">
+            <div class="control">
+              <button class="button is-medium is-primary">
+                Join chat
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="ChatRoom" hidden>
+      <h1 class="title">Success!</h1>
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
